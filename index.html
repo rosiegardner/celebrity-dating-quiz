@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Celebrity Dating Quiz!</h1>
+    <p>We're here to help you find the perfect match!</p>
+    <p>Fill out the form below to find the Celebrity of your dreams!</p>
+    
+    <form id="information">
+     <ul>
+      <li><label for="name">Name</label></li>
+      <input id="name" type="text">
+      <li><label for="age">Age</label></li>
+      <input id="age" type="text">
+      <li><label for="gender">Gender</label></li>
+      <select id="gender">
+        <option value="non-binary">Non-binary</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+      <li><label for="born">Date of birth:</label></li>
+      <input id="born" class="form-control" type="date">
+     </ul>  
+
+      <button type="submit" class="btn">Find my Celebrity!</button>
+    </form>
+
+    <div id="img-hidden">
+      <p><strong>RYAN GOSLING!</strong></p>
+      <img src="img/ryangosling.jpg">
+    </div>
+
+  </div>
+</body>
+</html>
