@@ -3,9 +3,10 @@ $(document).ready(function() {
     const name = parseInt($("input#name").val());
     const age = parseInt($("input#age").val());
     const gender = $("select#gender").val();
+    const born = parseInt($("input#borng").val());
 
     $("#img-hidden").show();
 
-     event.preventDefault();
-   });
+    event.preventDefault();
+  });
 })
